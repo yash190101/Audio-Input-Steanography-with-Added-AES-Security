@@ -1,0 +1,19 @@
+Project Topic : Audio in Audio Steganography
+
+Installation Guidelines :
+To run this project you need to have a stable internet connection first because this is a web based project.
+You just need to install required libraries in google collab and ones this is done you just have to run the project.
+
+Software Tools Required :
+There are no as such tools are required you just need some libraries like streamlit, pyngrok, etc in order to use execute the system.
+Even the end user just need a stable internet connection and browers to access the system.
+
+Project Execution Steps :
+1) Go to google collab and first install the required libraries as mentioned in src file.
+2) Once the libraries are downloaded write the streamlit execution code in collab file.
+3) The backend execution that is steganography will be performed in file name app.py which is neccesary file in streamlit apps to run the system.
+4) Just write the steganography code in app.py and start execution of the whole collab file one by one.
+5) Ones the project starts running in browser you just need to upload a secret file in upload box.
+6) As soon as you upload the file you will get stego file and at the same time the secret key.
+7) Now, in order to get your original secret audio back you just have to upload stego audio and your secret key in decryption tab.
+8) The moment you enter the correct key you will get your original secret file back.
